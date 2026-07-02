@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currency Converter — Free Online Tool | UtilityDock</title>
+  <meta name="description" content="Convert between major currencies with editable demo rates. Free, fast, no sign-up — runs instantly in your browser.">
+  <meta name="keywords" content="currency exchange rate money convert usd eur gbp jpy">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://utilitydock.github.io/tools/currency-converter.html">
+  <meta name="theme-color" content="#5b5bf0">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/img/favicon.svg">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="UtilityDock">
+  <meta property="og:title" content="Currency Converter — Free Online Tool | UtilityDock">
+  <meta property="og:description" content="Convert between major currencies with editable demo rates. Free, fast, no sign-up — runs instantly in your browser.">
+  <meta property="og:url" content="https://utilitydock.github.io/tools/currency-converter.html">
+  <meta property="og:image" content="https://utilitydock.github.io/assets/img/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Currency Converter — Free Online Tool | UtilityDock">
+  <meta name="twitter:description" content="Convert between major currencies with editable demo rates. Free, fast, no sign-up — runs instantly in your browser.">
+  <meta name="twitter:image" content="https://utilitydock.github.io/assets/img/og-image.svg">
+
+  <script>(function(){try{var t=localStorage.getItem("ud-theme");if(!t){t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://utilitydock.github.io/index.html"},{"@type":"ListItem","position":2,"name":"Converters","item":"https://utilitydock.github.io/index.html#cat-converters"},{"@type":"ListItem","position":3,"name":"Currency Converter","item":"https://utilitydock.github.io/tools/currency-converter.html"}]},{"@type":"WebApplication","name":"Currency Converter","url":"https://utilitydock.github.io/tools/currency-converter.html","description":"Convert between major currencies with editable demo rates. Free, fast, no sign-up — runs instantly in your browser.","applicationCategory":"UtilityApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are these live exchange rates?","acceptedAnswer":{"@type":"Answer","text":"No. They are illustrative demo rates hard-coded in JavaScript so the tool works instantly without calling an external API. Edit them yourself in the “Edit demo rates” panel if you know current rates."}},{"@type":"Question","name":"Why not use a live rates API?","acceptedAnswer":{"@type":"Answer","text":"UtilityDock is a fully static site with no server. A live API would require a backend or a third-party key, add latency, and could fail offline — a transparent editable demo keeps the tool fast and dependency-free."}},{"@type":"Question","name":"Can I add more currencies?","acceptedAnswer":{"@type":"Answer","text":"The rate table is a plain JavaScript object, so a developer can add another currency code and rate in a couple of lines."}}]}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.7 1.9L22 18l-2.3.9L19 21l-.7-2.1L16 18l2.3-.9L19 15z"/></svg></span>
+        UtilityDock
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#tools" aria-current="page">All Tools</a>
+        <a href="../about.html">About</a>
+        <a href="../privacy.html">Privacy</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="btn-icon theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Toggle dark mode">
+          <span class="icon-sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></span>
+          <span class="icon-moon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1111.2 3 7.2 7.2 0 0021 12.8z"/></svg></span>
+        </button>
+        <button type="button" class="btn-icon nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+<main id="main">
+<nav class="breadcrumbs container" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></span>
+    <a href="../index.html#cat-converters">Converters</a><span class="sep"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></span>
+    <span aria-current="page">Currency Converter</span></nav>
+<div class="container">
+  <div class="tool-header">
+    <h1><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 16V4M7 4L3 8M7 4l4 4"/><path d="M17 8v12M17 20l4-4M17 20l-4-4"/></svg></span>Currency Converter</h1>
+    <p class="lede">Convert between major currencies with editable demo rates.</p>
+  </div>
+
+  <div class="tool-layout with-sidebar">
+    <div>
+      <section class="panel" aria-label="Currency Converter tool">
+        
+      <div class="field-group-inline">
+        <div class="field"><label for="cur-amount">Amount</label><input type="number" id="cur-amount" value="100" inputmode="decimal"></div>
+      </div>
+      <div class="field-group-inline" style="margin-top:14px">
+        <div class="field">
+          <label for="cur-from">From</label>
+          <select id="cur-from"></select>
+        </div>
+        <button type="button" class="btn-icon" id="cur-swap" aria-label="Swap currencies" title="Swap currencies"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 16V4M7 4L3 8M7 4l4 4"/><path d="M17 8v12M17 20l4-4M17 20l-4-4"/></svg></button>
+        <div class="field">
+          <label for="cur-to">To</label>
+          <select id="cur-to"></select>
+        </div>
+      </div>
+      <div class="result">
+        <div class="result-label">Converted amount</div>
+        <div class="result-value" id="cur-result">0.00</div>
+        <p class="field-hint" id="cur-rate-line">1 USD = 1.0000 USD</p>
+      </div>
+      <details class="field" style="margin-top:18px">
+        <summary style="cursor:pointer;font-weight:600;font-size:0.9rem">Edit demo rates (per 1 USD)</summary>
+        <p class="field-hint">Demo rates only — not live market data. Change any value below to recalculate.</p>
+        <div class="field-row" id="cur-rate-editor" style="margin-top:12px"></div>
+      </details>
+      </section>
+
+      <section class="panel info-block">
+        <h2>About this tool</h2>
+        <p>This is a static, offline currency converter: exchange rates are stored as editable numbers in the page's JavaScript rather than fetched from a live API. That keeps it fast, free of external dependencies, and fully functional on GitHub Pages with no backend.</p>
+        <p>Because the rates are fixed demo values, always check a live source before making real financial decisions.</p>
+        <h3>How to use the currency converter</h3>
+        <ol>
+          <li>Enter an amount and pick the currency you're converting from and to.</li>
+          <li>The converted amount updates instantly using the built-in demo rates.</li>
+          <li>Open “Edit demo rates” to tweak any rate and see the conversion recalculate live.</li>
+        </ol>
+        <h3>Frequently asked questions</h3>
+        <div class="faq-item"><h3>Are these live exchange rates?</h3><p>No. They are illustrative demo rates hard-coded in JavaScript so the tool works instantly without calling an external API. Edit them yourself in the “Edit demo rates” panel if you know current rates.</p></div>
+        <div class="faq-item"><h3>Why not use a live rates API?</h3><p>UtilityDock is a fully static site with no server. A live API would require a backend or a third-party key, add latency, and could fail offline — a transparent editable demo keeps the tool fast and dependency-free.</p></div>
+        <div class="faq-item"><h3>Can I add more currencies?</h3><p>The rate table is a plain JavaScript object, so a developer can add another currency code and rate in a couple of lines.</p></div>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <div class="panel">
+        <h2>Related tools</h2>
+        <div class="related-list">
+          <a href="percentage-calculator.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="8.01" y2="18"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>Percentage Calculator</a>
+          <a href="bmi-calculator.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="8.01" y2="18"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>BMI Calculator</a>
+          <a href="age-calculator.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="8.01" y2="18"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>Age Calculator</a>
+          <a href="vat-calculator.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="8.01" y2="18"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>VAT Calculator</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="../index.html">
+            <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.7 1.9L22 18l-2.3.9L19 21l-.7-2.1L16 18l2.3-.9L19 15z"/></svg></span>
+            UtilityDock
+          </a>
+          <p>UtilityDock is a free collection of fast online calculators, converters, generators and text tools. No sign-up, no clutter, no tracking — everything runs instantly in your browser.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="../index.html#cat-calculators">Calculators</a></li>
+            <li><a href="../index.html#cat-converters">Converters</a></li>
+            <li><a href="../index.html#cat-generators">Generators</a></li>
+            <li><a href="../index.html#cat-text-tools">Text Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Popular tools</h4>
+          <ul>
+            <li><a href="../tools/percentage-calculator.html">Percentage Calculator</a></li>
+            <li><a href="../tools/bmi-calculator.html">BMI Calculator</a></li>
+            <li><a href="../tools/age-calculator.html">Age Calculator</a></li>
+            <li><a href="../tools/currency-converter.html">Currency Converter</a></li>
+            <li><a href="../tools/password-generator.html">Password Generator</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../index.html#tools">All Tools</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> UtilityDock. All rights reserved.</span>
+        <span>Built with plain HTML, CSS &amp; JavaScript.</span>
+      </div>
+    </div>
+  </footer>
+<script src="../assets/js/script.js" defer></script>
+<script>document.addEventListener("DOMContentLoaded",function(){
+      var RATES = { USD: 1, EUR: 0.92, GBP: 0.79, JPY: 156.5, CAD: 1.37, AUD: 1.52, CHF: 0.90, CNY: 7.24, INR: 83.4, BRL: 5.42 };
+      var NAMES = { USD: "US Dollar", EUR: "Euro", GBP: "British Pound", JPY: "Japanese Yen", CAD: "Canadian Dollar", AUD: "Australian Dollar", CHF: "Swiss Franc", CNY: "Chinese Yuan", INR: "Indian Rupee", BRL: "Brazilian Real" };
+      var fromSel = document.getElementById("cur-from");
+      var toSel = document.getElementById("cur-to");
+      var amountInput = document.getElementById("cur-amount");
+      var resultEl = document.getElementById("cur-result");
+      var rateLine = document.getElementById("cur-rate-line");
+      var editor = document.getElementById("cur-rate-editor");
+
+      Object.keys(RATES).forEach(function (code) {
+        var o1 = document.createElement("option"); o1.value = code; o1.textContent = code + " — " + NAMES[code];
+        var o2 = o1.cloneNode(true);
+        fromSel.appendChild(o1); toSel.appendChild(o2);
+
+        var wrap = document.createElement("div"); wrap.className = "field";
+        var label = document.createElement("label"); label.textContent = code; label.setAttribute("for", "rate-" + code);
+        var input = document.createElement("input"); input.type = "number"; input.step = "0.0001"; input.id = "rate-" + code; input.value = RATES[code];
+        input.addEventListener("input", function () { RATES[code] = parseFloat(input.value) || 0; recalc(); });
+        wrap.appendChild(label); wrap.appendChild(input); editor.appendChild(wrap);
+      });
+      fromSel.value = "USD"; toSel.value = "EUR";
+
+      function recalc() {
+        var amount = parseFloat(amountInput.value) || 0;
+        var from = fromSel.value, to = toSel.value;
+        var usdAmount = RATES[from] ? amount / RATES[from] : 0;
+        var converted = usdAmount * (RATES[to] || 0);
+        resultEl.textContent = converted.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 4 }) + " " + to;
+        var unitRate = RATES[from] ? RATES[to] / RATES[from] : 0;
+        rateLine.textContent = "1 " + from + " = " + unitRate.toLocaleString(undefined, { maximumFractionDigits: 4 }) + " " + to;
+      }
+      document.getElementById("cur-swap").addEventListener("click", function () {
+        var tmp = fromSel.value; fromSel.value = toSel.value; toSel.value = tmp; recalc();
+      });
+      [amountInput, fromSel, toSel].forEach(function (el) { el.addEventListener("input", recalc); el.addEventListener("change", recalc); });
+      recalc();});</script>
+</body>
+</html>

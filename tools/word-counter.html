@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Word Counter — Free Online Tool | UtilityDock</title>
+  <meta name="description" content="Count words, characters, sentences and estimate reading time. Free, fast, no sign-up — runs instantly in your browser.">
+  <meta name="keywords" content="word counter character count text length reading time sentence paragraph">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://utilitydock.github.io/tools/word-counter.html">
+  <meta name="theme-color" content="#5b5bf0">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/img/favicon.svg">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="UtilityDock">
+  <meta property="og:title" content="Word Counter — Free Online Tool | UtilityDock">
+  <meta property="og:description" content="Count words, characters, sentences and estimate reading time. Free, fast, no sign-up — runs instantly in your browser.">
+  <meta property="og:url" content="https://utilitydock.github.io/tools/word-counter.html">
+  <meta property="og:image" content="https://utilitydock.github.io/assets/img/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Word Counter — Free Online Tool | UtilityDock">
+  <meta name="twitter:description" content="Count words, characters, sentences and estimate reading time. Free, fast, no sign-up — runs instantly in your browser.">
+  <meta name="twitter:image" content="https://utilitydock.github.io/assets/img/og-image.svg">
+
+  <script>(function(){try{var t=localStorage.getItem("ud-theme");if(!t){t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://utilitydock.github.io/index.html"},{"@type":"ListItem","position":2,"name":"Text Tools","item":"https://utilitydock.github.io/index.html#cat-text-tools"},{"@type":"ListItem","position":3,"name":"Word Counter","item":"https://utilitydock.github.io/tools/word-counter.html"}]},{"@type":"WebApplication","name":"Word Counter","url":"https://utilitydock.github.io/tools/word-counter.html","description":"Count words, characters, sentences and estimate reading time. Free, fast, no sign-up — runs instantly in your browser.","applicationCategory":"UtilityApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is reading time calculated?","acceptedAnswer":{"@type":"Answer","text":"Word count divided by 200 words per minute (a common average adult silent-reading speed), rounded up to the nearest minute."}},{"@type":"Question","name":"Does it count words in other languages?","acceptedAnswer":{"@type":"Answer","text":"It splits text on whitespace, so it works reasonably well for space-separated languages; character-based languages without spaces will count as fewer “words” than characters."}},{"@type":"Question","name":"Is there a word limit?","acceptedAnswer":{"@type":"Answer","text":"No — it's limited only by your browser's memory, so it comfortably handles anything from a tweet to a full manuscript."}}]}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.7 1.9L22 18l-2.3.9L19 21l-.7-2.1L16 18l2.3-.9L19 15z"/></svg></span>
+        UtilityDock
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#tools" aria-current="page">All Tools</a>
+        <a href="../about.html">About</a>
+        <a href="../privacy.html">Privacy</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="btn-icon theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Toggle dark mode">
+          <span class="icon-sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></span>
+          <span class="icon-moon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1111.2 3 7.2 7.2 0 0021 12.8z"/></svg></span>
+        </button>
+        <button type="button" class="btn-icon nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+<main id="main">
+<nav class="breadcrumbs container" aria-label="Breadcrumb"><a href="../index.html">Home</a><span class="sep"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></span>
+    <a href="../index.html#cat-text-tools">Text Tools</a><span class="sep"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></span>
+    <span aria-current="page">Word Counter</span></nav>
+<div class="container">
+  <div class="tool-header">
+    <h1><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="16" y2="12"/><line x1="4" y1="18" x2="12" y2="18"/></svg></span>Word Counter</h1>
+    <p class="lede">Count words, characters, sentences and estimate reading time.</p>
+  </div>
+
+  <div class="tool-layout with-sidebar">
+    <div>
+      <section class="panel" aria-label="Word Counter tool">
+        
+      <div class="field">
+        <label for="wc-text">Your text</label>
+        <textarea id="wc-text" rows="10" placeholder="Start typing or paste your text here…"></textarea>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-secondary" id="wc-clear">Clear</button>
+      </div>
+      <div class="result-grid">
+        <div class="result-item"><div class="n" id="wc-words">0</div><div class="l">Words</div></div>
+        <div class="result-item"><div class="n" id="wc-chars">0</div><div class="l">Characters</div></div>
+        <div class="result-item"><div class="n" id="wc-chars-ns">0</div><div class="l">Characters (no spaces)</div></div>
+        <div class="result-item"><div class="n" id="wc-sentences">0</div><div class="l">Sentences</div></div>
+        <div class="result-item"><div class="n" id="wc-paragraphs">0</div><div class="l">Paragraphs</div></div>
+        <div class="result-item"><div class="n" id="wc-reading">0 min</div><div class="l">Reading time</div></div>
+      </div>
+      </section>
+
+      <section class="panel info-block">
+        <h2>About this tool</h2>
+        <p>A live text-analysis tool for writers, students and editors: it counts words, characters (with and without spaces), sentences and paragraphs, and estimates reading time at an average 200 words per minute.</p>
+        <p>Everything updates as you type — there's no submit button and no text ever leaves your browser.</p>
+        <h3>How to use the word counter</h3>
+        <ol>
+          <li>Paste or type your text into the box.</li>
+          <li>Watch the counts update live as you type.</li>
+          <li>Use “Clear” to start over.</li>
+        </ol>
+        <h3>Frequently asked questions</h3>
+        <div class="faq-item"><h3>How is reading time calculated?</h3><p>Word count divided by 200 words per minute (a common average adult silent-reading speed), rounded up to the nearest minute.</p></div>
+        <div class="faq-item"><h3>Does it count words in other languages?</h3><p>It splits text on whitespace, so it works reasonably well for space-separated languages; character-based languages without spaces will count as fewer “words” than characters.</p></div>
+        <div class="faq-item"><h3>Is there a word limit?</h3><p>No — it's limited only by your browser's memory, so it comfortably handles anything from a tweet to a full manuscript.</p></div>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <div class="panel">
+        <h2>Related tools</h2>
+        <div class="related-list">
+          <a href="case-converter.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="16" y2="12"/><line x1="4" y1="18" x2="12" y2="18"/></svg></span>Case Converter</a>
+          <a href="percentage-calculator.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="8.01" y2="18"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>Percentage Calculator</a>
+          <a href="bmi-calculator.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="8.01" y2="18"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>BMI Calculator</a>
+          <a href="age-calculator.html"><span class="tool-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="8" y1="18" x2="8.01" y2="18"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span>Age Calculator</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="../index.html">
+            <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.7 1.9L22 18l-2.3.9L19 21l-.7-2.1L16 18l2.3-.9L19 15z"/></svg></span>
+            UtilityDock
+          </a>
+          <p>UtilityDock is a free collection of fast online calculators, converters, generators and text tools. No sign-up, no clutter, no tracking — everything runs instantly in your browser.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="../index.html#cat-calculators">Calculators</a></li>
+            <li><a href="../index.html#cat-converters">Converters</a></li>
+            <li><a href="../index.html#cat-generators">Generators</a></li>
+            <li><a href="../index.html#cat-text-tools">Text Tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Popular tools</h4>
+          <ul>
+            <li><a href="../tools/percentage-calculator.html">Percentage Calculator</a></li>
+            <li><a href="../tools/bmi-calculator.html">BMI Calculator</a></li>
+            <li><a href="../tools/age-calculator.html">Age Calculator</a></li>
+            <li><a href="../tools/currency-converter.html">Currency Converter</a></li>
+            <li><a href="../tools/password-generator.html">Password Generator</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../index.html#tools">All Tools</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> UtilityDock. All rights reserved.</span>
+        <span>Built with plain HTML, CSS &amp; JavaScript.</span>
+      </div>
+    </div>
+  </footer>
+<script src="../assets/js/script.js" defer></script>
+<script>document.addEventListener("DOMContentLoaded",function(){
+      var textArea = document.getElementById("wc-text");
+      function update() {
+        var text = textArea.value;
+        var trimmed = text.trim();
+        var words = trimmed ? trimmed.split(/\s+/).length : 0;
+        var chars = text.length;
+        var charsNs = text.replace(/\s/g, "").length;
+        var sentences = trimmed ? (trimmed.match(/[.!?]+(?=\s|$)/g) || []).length || (trimmed ? 1 : 0) : 0;
+        var paragraphs = trimmed ? trimmed.split(/\n+/).filter(function (p) { return p.trim().length; }).length : 0;
+        var reading = Math.max(1, Math.ceil(words / 200));
+        document.getElementById("wc-words").textContent = words;
+        document.getElementById("wc-chars").textContent = chars;
+        document.getElementById("wc-chars-ns").textContent = charsNs;
+        document.getElementById("wc-sentences").textContent = sentences;
+        document.getElementById("wc-paragraphs").textContent = paragraphs;
+        document.getElementById("wc-reading").textContent = (words ? reading : 0) + " min";
+      }
+      textArea.addEventListener("input", update);
+      document.getElementById("wc-clear").addEventListener("click", function () { textArea.value = ""; update(); textArea.focus(); });
+      update();});</script>
+</body>
+</html>

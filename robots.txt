@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://utilitydock.github.io/sitemap.xml
